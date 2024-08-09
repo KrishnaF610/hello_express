@@ -2,8 +2,9 @@
   "name": "hello_express",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "commonjs",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon index.js"
   },
   "keywords": [],
   "author": "Krishna",
@@ -16,5 +17,14 @@
   "bugs": {
     "url": "https://github.com/KrishnaF610/hello_express/issues"
   },
-  "homepage": "https://github.com/KrishnaF610/hello_express#readme"
+  "homepage": "https://github.com/KrishnaF610/hello_express#readme",
+  "dependencies": {
+    "express": "^4.19.2",
+    "mysql2": "^3.11.0"
+  },
+  "devDependencies": {
+    "eslint": "^9.8.0",
+    "globals": "^15.9.0",
+    "nodemon": "^3.1.4"
+  }
 }
